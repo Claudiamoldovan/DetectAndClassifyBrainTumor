@@ -1,0 +1,31 @@
+
+.main-content-container-radiologii-radiolog {
+    padding-top: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-container-radiolog {
+    padding-top: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.see-radiologii-container-radiolog {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 95vw;
+    width: 97%;
+    height: auto;
+    overflow-y: auto;
+    max-height: 80vh;
+}

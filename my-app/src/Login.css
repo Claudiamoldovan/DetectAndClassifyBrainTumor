@@ -1,0 +1,81 @@
+.body-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./bck.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-card {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-icon {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fff;
+    margin-bottom: 20px;
+}
+
+.user-image {
+    background-image: url('./user.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+
+.input-field {
+    width: 80%;
+    padding: 15px;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-field:focus {
+    border-color: #2ecc71;
+}
+
+.signin-button {
+    width: 80%;
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 18px;
+}
+
+.signin-button:hover {
+    background-color: #2980b9;
+}
+.forgot-password {
+    color: #fff;
+    margin-top: 20px;
+}

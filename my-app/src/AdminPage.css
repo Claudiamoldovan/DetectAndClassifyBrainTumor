@@ -1,0 +1,240 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./bck.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-content-container {
+    padding-top: 120px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header button {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right:10px;
+}
+
+.header button:hover {
+    background: #2980b9;
+}
+
+.see-users-container {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 4000px;
+    width: 96%;
+    margin-top: 0px;
+    height: auto;
+    overflow-x: auto;
+}
+
+.see-admin-container {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 95vw;
+    width: 97%;
+    height: auto;
+    overflow-y: auto;
+    max-height: 80vh;
+}
+
+.see-radiologii-container {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 4000px;
+    width: 95%;
+    margin-top: 200px;
+    height: auto;
+    overflow-x: auto;
+    transform: scale(95%);
+}
+
+.see-radiologii-container-radiolog {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 4000px;
+    width: 95%;
+    margin-top: 120px;
+    height: auto;
+    overflow-x: auto;
+}
+.filter-input{
+    margin-bottom: 10px;
+    border-radius: 5px;}
+
+
+
+.table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    background:rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color:rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #2980b9;
+}
+
+.form-container {
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 95vw;
+    width: 60%;
+    height: auto;
+    overflow-y: auto;
+    max-height: 80vh;
+    text-align: center;
+}
+
+.form-container h1 {
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-container button {
+    width: 30%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.delete-button {
+    margin-top:10px;
+    background-color: #e74c3c;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
+}
+
+.edit-button {
+    background-color: #f1c40f;
+}
+
+.pdf-button {
+    background-color: dodgerblue;
+    margin-top: 5px;
+}
+
+.send-email-button {
+    background-color: darkslategray;
+    margin-top: 5px;
+}
+
+.edit-parafa {
+    margin-top: 10px;
+    background-color: cornflowerblue;
+}
+
+.edit-button:hover {
+    background-color: #f39c12;
+}
+
+.image-cell {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image-cell img {
+    max-height: 200px;
+    height: auto;
+}
+
+
+
